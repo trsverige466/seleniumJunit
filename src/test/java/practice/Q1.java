@@ -6,9 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.time.Duration;
-
 public class Q1 {
     /*
     ...Exercise1...
@@ -53,4 +51,3 @@ public class Q1 {
         driver.findElement(By.xpath("//input[@name='q']")).sendKeys("The Curious Case of Benjamin Button" + Keys.ENTER);
     }
 }
-
